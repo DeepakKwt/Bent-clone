@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 150vh;
+}
+
+.upper {
+    width: 100%;
+    height: 45%;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    position: fixed;
+    right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.upper h1 {
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 2px;
+    padding: 0 30px;
+    padding-top: 100px;
+}
+
+.bt-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 50px;
+}
+
+.bt-btn h3 {
+    font-size: 30px;
+}
+
+.lower {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
+    background-size: cover;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about .about-left {
+    width: 55%;
+    height: 80%;
+}
+
+.about .about-left h1 {
+    font-size: 60px;
+    line-height: 70px;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.about-right {
+    width: 45%;
+    height: 80%;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+
+.about-right h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.icon {
+    width: 100%;
+}
+
+.icon i {
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.line {
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    margin-left: 5%;
+}
+
+.work {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.client {
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    align-items: center;
+}
+
+.client .client-txt {
+    font-size: 40px;
+}
+
+.workleft,
+.clientleft {
+    width: 40%;
+    height: 90%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.workleft h3,
+.clientleft h3 {
+    font-size: 20px;
+}
+
+.workleft i,
+.clientleft i {
+    font-size: 40px;
+}
+
+.workright,
+.clientright {
+    width: 55%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 2%;
+}
+
+.wrtop,
+.crtop {
+    width: 90%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.wrtleft,
+.crtleft {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+.wrtleft h3,
+.wrtright h3,
+.wrbleft h3,
+.wrbright h3,
+.crtleft h3,
+.crtright h3,
+.crbleft h3,
+.crbright h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.wrtleft p,
+.wrtright p,
+.wrbleft p,
+.wrbright p,
+.crtleft p,
+.crtright p,
+.crbleft p,
+.crbright p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.wrtright,
+.crtright {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.wrbottom,
+.crbottom {
+    width: 90%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.wrbleft,
+.crbleft {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+.wrbright,
+.crbright {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.wrk {
+    font-size: 120px;
+    font-weight: 800;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.image1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad0d8364135d4087b9c8_project-01-p-1600.webp);
+    background-size: cover;
+}
+
+.camera {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.camera h1 {
+    font-size: 100px;
+}
+
+.text {
+    width: 40%;
+}
+
+.text p {
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.camera .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.camera .btn h3 {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.image2 {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad129d3885d86c115c7f_project-02-p-1600.webp);
+    background-size: cover;
+}
+
+.image3 {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad1988b7ca338942d0b3_project-03-p-1600.webp);
+    background-size: cover;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info .text h2 {
+    font-size: 18px;
+}
+
+.info .text h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer {
+    width: 100%;
+    height: 130vh;
+    background: black;
+    color: white;
+}
+
+.footer h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 130px;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.footer button {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    padding: 18px 25px;
+    border-radius: 35px;
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.footer-element {
+    width: 100%;
+    height: 50%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.footer-element .ft-elem-box {
+    width: 350px;
+    height: 100%;
+    position: relative;
+}
+
+.footer-element .ft-elem-box h4 {
+    font-size: 25px;
+}
+
+.footer-element .ft-elem-box ul {
+    list-style: none;
+}
+
+.footer-element .ft-elem-box ul li {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.footer-element .ft-elem-box button {
+    position: absolute;
+    left: 25%;
+}
+
+.footer h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
